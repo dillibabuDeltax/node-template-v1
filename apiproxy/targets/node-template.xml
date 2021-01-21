@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="node-template">
+    <Description>target endpoint pointing to access the node template service</Description>
+	<FaultRules>
+	</FaultRules>
+    <HTTPTargetConnection>
+        <LoadBalancer>
+	      <Algorithm>Weighted</Algorithm>
+	      <Server name="tsr-api-infoarmor-io">
+	        <Weight>8</Weight>
+	      </Server>
+	    </LoadBalancer>
+    <Path>/v0/partner/node-template</Path>
+    </HTTPTargetConnection>
+</TargetEndpoint>

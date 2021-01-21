@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:1013190eb6fe25f6220bea9f2d0d1476362f9163301c96f65d195f3d0711c44952e90bbc207db829c9af2cd0a3f355ecacec10f91f4c5f17e4cea7fc3a07286a"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <!-- This section is populated by proxy-gen tool -->
+    <TargetEndpoints>
+		<VersionInfo resourceName="node-template" version="SHA-512:c9746f028de9874e5b565f61eea3a081c5bdf3a34e11dd6167ee7b8585ffa8e571a1a78cdd12e098c5cbbf752ff70c12248ed1bbaa66ee96d8e75c7a5ad75750"/>
+    </TargetEndpoints>
+</Manifest>
